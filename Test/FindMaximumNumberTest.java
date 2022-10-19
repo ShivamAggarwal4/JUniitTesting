@@ -8,6 +8,7 @@ class FindMaximumNumberTest {
     public void testFindMax(){
         assertEquals(4,FindMaximumNumber.findMax(new int[]{1,3,4,2}));
         assertEquals(-1,FindMaximumNumber.findMax(new int[]{-12,-1,-3,-4,-2}));
-        assertEquals(0,FindMaximumNumber.findMax(new int[]{-12,-1,-3,-4,-2}));
+//        assertEquals(0,FindMaximumNumber.findMax(new int[]{-12,-1,-3,-4,-2}));
+        assertEquals(8,FindMaximumNumber.findMax((new int[]{9,8,7,6,5,4})));
     }
 }
